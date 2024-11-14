@@ -1,4 +1,4 @@
-## Projetos_CIC
+## 👨‍💻🐧 Projetos_CIC
 
 Esse é um repositório destinado para meus projetos e códigos já feitos ou em andamento na minha graduação em Ciência da Computação.
 
