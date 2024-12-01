@@ -5,8 +5,6 @@
 - Algoritmo: Cálculo de IMC usando Struct e Funções
 */
 
-//erro no calculo das faixas
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
