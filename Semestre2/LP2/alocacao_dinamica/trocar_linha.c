@@ -85,17 +85,6 @@ void printar_dinamica(int** matriz, int linhas, int colunas){
     }
 }
 
-/*função que troca as linhas da matriz dinamica
-void trocar_linha_dinamica(int** matriz, int primeira, int segunda, int colunas){
-    int aux;
-
-    for(int i = 0; i < colunas; i++){
-        aux = *(*(matriz + (primeira-1)) + i);
-        *(*(matriz + (primeira - 1)) + i) = *(*(matriz + (segunda - 1)) + i);
-        *(*(matriz + (segunda - 1)) + i) = aux;
-    }
-}*/
-
 //função que troca as linhas da matriz dinamica só que sem o loop (melhorando a peformidade)
 void trocar_linha_dinamica(int** matriz, int primeira, int segunda, int colunas){
     int* aux;
