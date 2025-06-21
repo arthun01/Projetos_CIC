@@ -1,0 +1,8 @@
+Olá, mundo dos arquivos!!
+Esta é a primeira linha.
+Botando Inteiro 123
+Olha um float agora 45.67
+
+--- Informações Adicionais ---
+Esta linha foi adicionada depois.
+O modo 'a' é muito útil para logs.
