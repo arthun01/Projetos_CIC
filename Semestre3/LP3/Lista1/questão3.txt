@@ -1,0 +1,8 @@
+Utilizando os recursos da  linguagem de programação Java, apresentados em sala de aula,implemente a classe Contato com as seguintes especificações:
+Atributos permitem representar os dados de um contato incluindo: Nome, E-mail, telefone, se o telefone é WhatsApp ou não. Defina os tipos adequados para cada atributo e declare todos como privados;
+Proponha pelo menos um construtor para a classe de forma que nenhum contato possa ser definido sem nome e sem, pelo menos, uma forma de contato que pode ser e-mail ou telefone.
+Verifique sempre que os dados fornecidos para o contato são validos:
+Um e-mail tem que ser fornecido no formato conta@endereço
+Um telefone tem que ser fornecido no formato ddd+número de telefone. O número tem que ter 8 ou nove dígitos;
+Proponha as funções seter/geter para os atributos da classe;
+Desenvolva uma função toString() para a classe;
