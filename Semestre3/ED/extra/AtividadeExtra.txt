@@ -1,0 +1,81 @@
+Iniciando testes de execução (Tempos em milissegundos)...
+Alunos: Arthur Ramos Vieira e Lucas Diniz Bezerra
+=================================================
+
+--- Testando N = 1000 ---
+  Algoritmo: Insertion Sort
+    Instancia 1: 1.3140 ms
+    Instancia 2: 1.0850 ms
+    Instancia 3: 1.1960 ms
+    -> Media Insertion: 1.1983 ms
+  Algoritmo: Selection Sort
+    Instancia 1: 1.0280 ms
+    Instancia 2: 1.1170 ms
+    Instancia 3: 1.1190 ms
+    -> Media Selection: 1.0880 ms
+  Algoritmo: Bubble Sort
+    Instancia 1: 2.4130 ms
+    Instancia 2: 3.1030 ms
+    Instancia 3: 3.4660 ms
+    -> Media Bubble: 2.9940 ms
+  Algoritmo: Quick Sort
+    Instancia 1: 0.0850 ms
+    Instancia 2: 0.0810 ms
+    Instancia 3: 0.1020 ms
+    -> Media Quick: 0.0893 ms
+
+--- Testando N = 5000 ---
+  Algoritmo: Insertion Sort
+    Instancia 1: 30.3190 ms
+    Instancia 2: 29.4430 ms
+    Instancia 3: 30.7540 ms
+    -> Media Insertion: 30.1720 ms
+  Algoritmo: Selection Sort
+    Instancia 1: 23.6790 ms
+    Instancia 2: 24.4430 ms
+    Instancia 3: 23.3050 ms
+    -> Media Selection: 23.8090 ms
+  Algoritmo: Bubble Sort
+    Instancia 1: 53.9990 ms
+    Instancia 2: 73.2150 ms
+    Instancia 3: 38.0570 ms
+    -> Media Bubble: 55.0903 ms
+  Algoritmo: Quick Sort
+    Instancia 1: 0.4170 ms
+    Instancia 2: 0.4190 ms
+    Instancia 3: 0.4010 ms
+    -> Media Quick: 0.4123 ms
+
+--- Testando N = 10000 ---
+  Algoritmo: Insertion Sort
+    Instancia 1: 48.5750 ms
+    Instancia 2: 48.5820 ms
+    Instancia 3: 49.4240 ms
+    -> Media Insertion: 48.8603 ms
+  Algoritmo: Selection Sort
+    Instancia 1: 97.8210 ms
+    Instancia 2: 96.8270 ms
+    Instancia 3: 93.9110 ms
+    -> Media Selection: 96.1863 ms
+  Algoritmo: Bubble Sort
+    Instancia 1: 212.0260 ms
+    Instancia 2: 213.9590 ms
+    Instancia 3: 204.9380 ms
+    -> Media Bubble: 210.3077 ms
+  Algoritmo: Quick Sort
+    Instancia 1: 0.9030 ms
+    Instancia 2: 0.8570 ms
+    Instancia 3: 0.8420 ms
+    -> Media Quick: 0.8673 ms
+
+
+--- Tabela Final de Tempos Medios (ms) ---
+
+Algoritmo         1000           5000           10000          
+===============================================================
+Insertion Sort    1.1983         30.1720        48.8603        
+Selection Sort    1.0880         23.8090        96.1863        
+Bubble Sort       2.9940         55.0903        210.3077       
+Quick Sort        0.0893         0.4123         0.8673         
+
+Fim dos testes de execução.

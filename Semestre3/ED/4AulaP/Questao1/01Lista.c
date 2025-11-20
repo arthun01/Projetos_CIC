@@ -37,10 +37,10 @@ void imprimir(Lista* l){
 
     while(atual != NULL){
         // printf("%d -> ", atual->numero);
-        printf("%d ", atual->numero);
+        printf("%d\n", atual->numero);
         atual = atual->proximo;
     }
-    printf("\n");
+    // printf("\n");
 }
 
 // função que reordena uma lista e retorna ordenada
@@ -51,39 +51,32 @@ Lista* reoordena_lista(Lista* l){
     }
 
     // declaração das listas
-    Lista* l_esquerda = NULL;
-    Lista* l_direita = NULL;
+    Lista* l_par = NULL;
+    Lista* l_impar = NULL;
     Lista* l_aux = l;
-    // index para comparar se é par ou impar
-    int index = 1;
-
-    // percorrendo a lista original por uma auxiliar
+    
     while(l_aux != NULL){
-        // indice par(if) e impar(else)
-        if(index % 2 == 0){
-            l_direita = inserir_final(l_direita, l_aux->numero);
+        if(l_aux->numero % 2 == 0){
+            l_par = inserir_final(l_par, l_aux->numero);
         }else{
-            l_esquerda = inserir_final(l_esquerda, l_aux->numero);
+            l_impar = inserir_final(l_impar, l_aux->numero);
         }
-        // avançando uma no l_aux
         l_aux = l_aux->proximo;
-        // avançando um index
-        index++;
     }
 
-    if(l_esquerda == NULL){
-        return l_direita;
+    if(l_par == NULL){
+        return l_impar;
     }
 
-    Lista* ultimo_esquerda = l_esquerda;
-    while (ultimo_esquerda->proximo != NULL) {
-        ultimo_esquerda = ultimo_esquerda->proximo;
+    Lista* ultimo_par = l_par;
+
+    while(ultimo_par->proximo != NULL){
+        ultimo_par = ultimo_par->proximo;
     }
 
-    // junto as duas e retornando
-    ultimo_esquerda->proximo = l_direita;
+    ultimo_par->proximo = l_impar;
 
-    return l_esquerda;
+    return l_par;
 }
 
 // função para liberar memória das listas
